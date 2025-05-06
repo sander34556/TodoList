@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+Thai&display=swap");
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  @apply bg-white text-black box-border font-sans;
+  font-family: "Noto Sans", "Noto Sans Thai", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-t from-pink-600  to-purple-700 rounded-xl;
+}
